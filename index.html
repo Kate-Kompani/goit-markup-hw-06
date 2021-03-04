@@ -415,8 +415,34 @@
             <!-- Для второго варианта -->
             <!-- В кнопу открытия и в кнопку закрытия data-toggle-backdrop-order -->
             <!-- Для всего модального окна data-backdrop-order -->
+
+            <form name="signup-form">
+                <p>Оставьте свои данные, мы вам перезвоним</p>
+                <label>
+                    Имя
+                    <input type="text" name="username" />
+                </label>
+                <label>
+                    Телефон
+                    <input type="tel" name="phone-number" />
+                </label>
+                <label>
+                    Почта
+                    <input type="email" name="email" />
+                </label>
+                <label>
+                    Комментарий
+                    <textarea name="comments" rows="5"></textarea>
+                </label>
+                <label>
+                    <input type="checkbox" name="conditions" />
+                    Соглашаюсь с рассылкой и принимаю 
+                    <a href="#">Условия договора</a>
+                </label>
+                <batton type="submit">Отправить</batton>
+            </form>
                        
-        </div>
+        </div>        
     </div>
     
     <script src="./js/modal.js"></script>

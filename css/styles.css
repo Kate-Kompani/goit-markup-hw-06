@@ -801,7 +801,8 @@ footer {
     width: 528px;
     height: 581px;
     border-radius: 4px;
-    background-color: #ffffff;     
+    background-color: #ffffff;
+    padding: 40px;
 }
 
 .close-button {
@@ -816,4 +817,9 @@ footer {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+}
+
+.backdrop-order form {
+    display: flex;
+    flex-direction: column;
 }
