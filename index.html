@@ -436,26 +436,44 @@
                 <p class="signup-form-title">Оставьте свои данные, мы вам перезвоним</p>
                 <label class="label">
                     <span>Имя</span>
-                    <input type="text" name="username" />
+                    <div class="data-label">
+                        <input class="data-input" type="text" name="username" />
+                        <svg class="signup-form-icons" width="18" height="18">
+                            <use href="./images/icons/symbol-defs.svg#person"></use>
+                        </svg>
+                    </div>
                 </label>
                 <label class="label">
                     <span>Телефон</span>
-                    <input type="tel" name="phone-number" />
+                    <div class="data-label">
+                        <input class="data-input" type="tel" name="phone-number" />
+                        <svg class="signup-form-icons" width="18" height="18">
+                            <use href="./images/icons/symbol-defs.svg#phone"></use>
+                        </svg>
+                    </div>                    
                 </label>
                 <label class="label">
                     <span>Почта</span>
-                    <input type="email" name="email" />
+                    <div class="data-label">
+                        <input class="data-input" type="email" name="email" />
+                        <svg class="signup-form-icons" width="18" height="18">
+                            <use href="./images/icons/symbol-defs.svg#email"></use>
+                        </svg>
+                    </div>                    
                 </label>
                 <label class="label">
                     <span>Комментарий</span>
-                    <textarea name="comments" rows="5"></textarea>
+                    <textarea name="comments" rows="5" placeholder="Введите текст"></textarea>
                 </label>
-                <label class="checkbox">
-                    <input type="checkbox" name="conditions" />
+                <label class="checkbox-conditions">
+                    <input class="visually-hidden" type="checkbox" name="conditions" />
+                    <svg width="16" height="15">
+                        <use href="./images/icons/symbol-devs.svg#checkbox"></use>                    
+                    </svg>
                     <span>Соглашаюсь с рассылкой и принимаю 
                     <a href="#">Условия договора</a></span>
                 </label>
-                <button type="submit">Отправить</button>
+                <button type="submit" class="send-button">Отправить</button>
             </form>
                        
         </div>        
